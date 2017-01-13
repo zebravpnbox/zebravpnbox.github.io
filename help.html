@@ -1,60 +1,476 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>世界这么大, 不想出海看看? - Help</title>
-
-    <!-- load stylesheets -->
-    <link rel="stylesheet" href="http://fonts.useso.com/css?family=Open+Sans:300,400">   <!-- Google web font "Open Sans" -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
-    <link rel="stylesheet" href="css/magnific-popup.css">                                     <!-- Magnific pop up style -->
-    <link rel="stylesheet" href="css/templatemo-style.css">                                   <!-- Templatemo style -->
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
+<meta content="text/html;charset=utf-8" http-equiv="content-type" />
+		<meta name="description" content="cmsmasters responsive html5 website template" />
+		<meta name="keywords" content="html5, css3, template, responsive, adaptive" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/styles/fonts.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/styles/colors.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/styles/jquery.prettyPhoto.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/styles/jquery.isotope.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/styles/jquery.jPlayer.css" type="text/css" media="screen" />
+			<!--[if lt IE 9]>
+			<link rel="stylesheet" href="css/styles/ie.css" type="text/css" />
+			<link rel="stylesheet" href="css/styles/ieCss3.css" type="text/css" media="screen" />
+		<![endif]-->
+		<script src="js/modernizr.custom.all.js" type="text/javascript"></script>
+		<script src="js/css3MediaQueries.js" type="text/javascript"></script>
+		<script src="js/jquery.min.js" type="text/javascript"></script>
+		<script src="js/jquery.easing.js" type="text/javascript"></script>
+		<script src="js/menu.js" type="text/javascript"></script>
+		<script src="js/jquery.script.js" type="text/javascript"></script>
+		<script src="js/jquery.validationEngine-lang.js" type="text/javascript"></script>
+		<script src="js/jquery.validationEngine.js" type="text/javascript"></script>
+		<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+		<script src="js/jquery.jtweetsanywhere.js" type="text/javascript"></script>
+		<script src="js/jquery.jPlayer.min.js" type="text/javascript"></script>
+		<script src="js/jquery.jPlayer.playlist.min.js" type="text/javascript"></script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZEBRA-Help</title>
+<!-- load stylesheets -->
+<link rel="stylesheet" href="http://fonts.useso.com/css?family=Open+Sans:300,400">
+<!-- Google web font "Open Sans" -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Bootstrap style -->
+<link rel="stylesheet" href="css/magnific-popup.css">
+<!-- Magnific pop up style -->
+<link rel="stylesheet" href="css/templatemo-style.css">
+<!-- Templatemo style -->
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
           <![endif]-->
-      </head>
+<script type="text/javascript">
+function MM_CheckFlashVersion(reqVerStr,msg){
+  with(navigator){
+    var isIE  = (appVersion.indexOf("MSIE") != -1 && userAgent.indexOf("Opera") == -1);
+    var isWin = (appVersion.toLowerCase().indexOf("win") != -1);
+    if (!isIE || !isWin){  
+      var flashVer = -1;
+      if (plugins && plugins.length > 0){
+        var desc = plugins["Shockwave Flash"] ? plugins["Shockwave Flash"].description : "";
+        desc = plugins["Shockwave Flash 2.0"] ? plugins["Shockwave Flash 2.0"].description : desc;
+        if (desc == "") flashVer = -1;
+        else{
+          var descArr = desc.split(" ");
+          var tempArrMajor = descArr[2].split(".");
+          var verMajor = tempArrMajor[0];
+          var tempArrMinor = (descArr[3] != "") ? descArr[3].split("r") : descArr[4].split("r");
+          var verMinor = (tempArrMinor[1] > 0) ? tempArrMinor[1] : 0;
+          flashVer =  parseFloat(verMajor + "." + verMinor);
+        }
+      }
+      // WebTV has Flash Player 4 or lower -- too low for video
+      else if (userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 4.0;
 
-      <body>
-        <div class="container">
+      var verArr = reqVerStr.split(",");
+      var reqVer = parseFloat(verArr[0] + "." + verArr[2]);
+  
+      if (flashVer < reqVer){
+        if (confirm(msg))
+          window.location = "http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+      }
+    }
+  } 
+}
+</script>
+</head>
+
+      <body onLoad="MM_CheckFlashVersion('7,0,0,0','本页内容需要使用较新的 Macromedia Flash Player 版本。是否现在下载它？');">
+        <div class="container">     
             <div class="tm-main-content">
                 <section class="tm-content-box">
                     <!--<img src="img/contact.jpg" alt="Contact image" class="img-fluid">-->
                     <div id="contact" class="pad">
-						<h2 class="tm-section-title">目錄</h2>
-						<p class="tm-section-description carousel-description"><a href="#film">Quick Setup視頻教程</a></p>
+						<h2 class="tm-section-title">目錄</h2> 
+						<p class="tm-section-description carousel-description"><a href="#film" style="color:red">Quick Setup視頻教程</a></p>
 						<p class="tm-section-description carousel-description"><a href="#quick">Quick Setup流程與畫面</a></p>
 						<p class="tm-section-description carousel-description"><a href="#first">一、使用前須知</a></p>
-						<p class="tm-section-description carousel-description"><a href="#second">二、VPN設置嚮導</a></p>
+						<p class="tm-section-description carousel-description"><a href="#second">二、路由器韌體升級</a></p>
 						<p class="tm-section-description carousel-description"><a href="#third">三、修改管理密碼</a></p>
 						<p class="tm-section-description carousel-description"><a href="#fourth">四、修改WIFI密碼</a></p>
 						<p class="tm-section-description carousel-description"><a href="#fifth">五、AP連接方式</a></p>
 						<p class="tm-section-description carousel-description"><a href="#sixth">六、WISP模式連接方式</a></p>
 						<p class="tm-section-description carousel-description"><a href="#seventh">七、3G連接方式</a></p>
 						<br />
-						<h2 class="tm-section-title" id="film">Quick Setup視頻教程</h2>
+						<h2 class="tm-section-title" id="film">Quick Setup視頻教程</h2> 
 						<br />
-						<iframe width="854" height="480" src="https://www.youtube.com/embed/zkEVLUsa-vM" frameborder="0" allowfullscreen></iframe>
-						<br />
-						<h2 class="tm-section-title" id="quick">Quick Setup流程與畫面</h2>
-						<br />
-						<img src="img/help/set1.jpg" alt="Contact image" class="img-fluid">
-						<img src="img/help/set2.jpg" alt="Contact image" class="img-fluid">
-						<img src="img/help/set3.jpg" alt="Contact image" class="img-fluid">
-						<img src="img/help/set4.jpg" alt="Contact image" class="img-fluid">
-						<img src="img/help/set5.jpg" alt="Contact image" class="img-fluid">
-						<img src="img/help/set6.jpg" alt="Contact image" class="img-fluid">
-						<img src="img/help/set7.jpg" alt="Contact image" class="img-fluid">
-						<img src="img/help/set8.jpg" alt="Contact image" class="img-fluid">
-						<img src="img/help/set9.jpg" alt="Contact image" class="img-fluid">
-						<img src="img/help/set10.jpg" alt="Contact image" class="img-fluid">
-						<img src="img/help/set11.jpg" alt="Contact image" class="img-fluid"><br />
+						<p class="tm-section-description carousel-description">1.初始安裝教程</p>
+						<article class="portfolio" data-category="advertising photography">
+									<div class="portfolio_inner">
+										<div class="cms_media top_img_radius">
+											<script type="text/javascript">
+												jQuery(document).ready(function () { 
+													jQuery('#jquery_jplayer_1').jPlayer( { 
+														ready : function () { 
+															jQuery(this).jPlayer('setMedia', { 
+																m4v : 'films/Produce_Setup1.mp4', 
+																
+																poster : 'images/page_images/1/2.png' 
+															} ); 
+														}, 
+														cssSelectorAncestor : '#jp_container_1', 
+														swfPath : 'css/styles', 
+														supplied : 'mp4, m4v, ogg, ogv, webm, webmv', 
+														size : { 
+															width : '100%', 
+															height : '100%' 
+														} 
+													} ); 
+												} );
+											</script>
+											<div id="jp_container_1" class="jp-video fullwidth">
+												<div class="jp-type-single">
+													<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+													<div class="jp-gui">
+														<div class="jp-video-play" >
+															<a href="#" class="jp-video-play-icon" title="Play">Play</a>														</div>
+														<div class="jp-interface">
+															<div class="jp-progress">
+																<div class="jp-seek-bar">
+																	<div class="jp-play-bar"></div>
+																</div>
+															</div>
+															<div class="jp-duration"></div>
+															<div class="jp-time-sep">/</div>
+															<div class="jp-current-time"></div>
+															<div class="jp-controls-holder">
+																<ul class="jp-controls">
+																	<li><a href="#" class="jp-play" title="Play" tabindex="1"><span>play</span></a></li>
+																	<li><a href="#" class="jp-pause" title="Pause" tabindex="1"><span>pause</span></a></li>
+																	<li><a href="#" class="jp-stop" title="Stop" tabindex="1"><span>stop</span></a></li>
+																</ul>
+																<div class="jp-volume-bar">
+																	<div class="jp-volume-bar-value"></div>
+																</div>
+																<ul class="jp-toggles">
+																	<li><a class="jp-mute" href="#" title="Mute" tabindex="1"><span>Mute</span></a></li>
+																	<li><a class="jp-unmute" title="Unmune" href="#" tabindex="1"><span>Unmute</span></a></li>
+																	<li><a class="jp-full-screen" title="Full Screen" href="#" tabindex="1"><span>Full Screen</span></a></li>
+																	<li><a class="jp-restore-screen" title="Restore Screen" href="#" tabindex="1" style="display:none;"><span>Restore Screen</span></a></li>
+																</ul>
+																<div class="jp-title">
+																	<ul>
+																		<li></li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+														<div class="jp-no-solution" style="display:none;">
+															<span>Update Required</span>To play the media you will need to either update your browser to a recent version or update your <a target="_blank" href="http://get.adobe.com/flashplayer/">Flash plugin</a>														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+						<!--<iframe width="854" height="480" src="https://www.youtube.com/embed/hIhcZV0D-o4" frameborder="0" allowfullscreen></iframe>-->
+						<br /><br />
+						<p class="tm-section-description carousel-description">2.初始設定教程</p>
+						<!--<iframe width="854" height="480" src="https://www.youtube.com/embed/Eh13rGm5OF4" frameborder="0" allowfullscreen></iframe>-->
+						<article class="portfolio" data-category="advertising photography">
+									<div class="portfolio_inner">
+										<div class="cms_media top_img_radius">
+											<script type="text/javascript">
+												jQuery(document).ready(function () { 
+													jQuery('#jquery_jplayer_2').jPlayer( { 
+														ready : function () { 
+															jQuery(this).jPlayer('setMedia', { 
+																m4v : 'films/Produce_Setup2.mp4', 
+																ogv : 'http://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer_480x270.ogv', 
+																poster : 'video/1.mp4' 
+															} ); 
+														}, 
+														cssSelectorAncestor : '#jp_container_2', 
+														swfPath : 'css/styles', 
+														supplied : 'mp4, m4v, ogg, ogv, webm, webmv', 
+														size : { 
+															width : '100%', 
+															height : '100%' 
+														} 
+													} ); 
+												} );
+											</script>
+											<div id="jp_container_2" class="jp-video fullwidth">
+												<div class="jp-type-single">
+													<div id="jquery_jplayer_2" class="jp-jplayer"></div>
+													<div class="jp-gui">
+														<div class="jp-video-play" >
+															<a href="#" class="jp-video-play-icon" title="Play">Play</a>														</div>
+														<div class="jp-interface">
+															<div class="jp-progress">
+																<div class="jp-seek-bar">
+																	<div class="jp-play-bar"></div>
+																</div>
+															</div>
+															<div class="jp-duration"></div>
+															<div class="jp-time-sep">/</div>
+															<div class="jp-current-time"></div>
+															<div class="jp-controls-holder">
+																<ul class="jp-controls">
+																	<li><a href="#" class="jp-play" title="Play" tabindex="2"><span>play</span></a></li>
+																	<li><a href="#" class="jp-pause" title="Pause" tabindex="2"><span>pause</span></a></li>
+																	<li><a href="#" class="jp-stop" title="Stop" tabindex="2"><span>stop</span></a></li>
+																</ul>
+																<div class="jp-volume-bar">
+																	<div class="jp-volume-bar-value"></div>
+																</div>
+																<ul class="jp-toggles">
+																	<li><a class="jp-mute" href="#" title="Mute" tabindex="2"><span>Mute</span></a></li>
+																	<li><a class="jp-unmute" title="Unmune" href="#" tabindex="2"><span>Unmute</span></a></li>
+																	<li><a class="jp-full-screen" title="Full Screen" href="#" tabindex="2"><span>Full Screen</span></a></li>
+																	<li><a class="jp-restore-screen" title="Restore Screen" href="#" tabindex="2" style="display:none;"><span>Restore Screen</span></a></li>
+																</ul>
+																<div class="jp-title">
+																	<ul>
+																		<li></li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+														<div class="jp-no-solution" style="display:none;">
+															<span>Update Required</span>To play the media you will need to either update your browser to a recent version or update your <a target="_blank" href="http://get.adobe.com/flashplayer/">Flash plugin</a>														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+						<br /><br />
+						<p class="tm-section-description carousel-description">3.使用有線連接模式連接VPN</p>
+						<!--<iframe width="854" height="480" src="https://www.youtube.com/embed/a9Z9TUae1D8" frameborder="0" allowfullscreen></iframe>-->
+						<article class="portfolio" data-category="advertising photography">
+									<div class="portfolio_inner">
+										<div class="cms_media top_img_radius">
+											<script type="text/javascript">
+												jQuery(document).ready(function () { 
+													jQuery('#jquery_jplayer_3').jPlayer( { 
+														ready : function () { 
+															jQuery(this).jPlayer('setMedia', { 
+																m4v : 'films/APMode.mp4', 
+																ogv : 'http://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer_480x270.ogv', 
+																poster : 'video/3.mp4' 
+															} ); 
+														}, 
+														cssSelectorAncestor : '#jp_container_3', 
+														swfPath : 'css/styles', 
+														supplied : 'mp4, m4v, ogg, ogv, webm, webmv', 
+														size : { 
+															width : '100%', 
+															height : '100%' 
+														} 
+													} ); 
+												} );
+											</script>
+											<div id="jp_container_3" class="jp-video fullwidth">
+												<div class="jp-type-single">
+													<div id="jquery_jplayer_3" class="jp-jplayer"></div>
+													<div class="jp-gui">
+														<div class="jp-video-play" >
+															<a href="#" class="jp-video-play-icon" title="Play">Play</a>														</div>
+														<div class="jp-interface">
+															<div class="jp-progress">
+																<div class="jp-seek-bar">
+																	<div class="jp-play-bar"></div>
+																</div>
+															</div>
+															<div class="jp-duration"></div>
+															<div class="jp-time-sep">/</div>
+															<div class="jp-current-time"></div>
+															<div class="jp-controls-holder">
+																<ul class="jp-controls">
+																	<li><a href="#" class="jp-play" title="Play" tabindex="3"><span>play</span></a></li>
+																	<li><a href="#" class="jp-pause" title="Pause" tabindex="3"><span>pause</span></a></li>
+																	<li><a href="#" class="jp-stop" title="Stop" tabindex="3"><span>stop</span></a></li>
+																</ul>
+																<div class="jp-volume-bar">
+																	<div class="jp-volume-bar-value"></div>
+																</div>
+																<ul class="jp-toggles">
+																	<li><a class="jp-mute" href="#" title="Mute" tabindex="3"><span>Mute</span></a></li>
+																	<li><a class="jp-unmute" title="Unmune" href="#" tabindex="3"><span>Unmute</span></a></li>
+																	<li><a class="jp-full-screen" title="Full Screen" href="#" tabindex="3"><span>Full Screen</span></a></li>
+																	<li><a class="jp-restore-screen" title="Restore Screen" href="#" tabindex="3" style="display:none;"><span>Restore Screen</span></a></li>
+																</ul>
+																<div class="jp-title">
+																	<ul>
+																		<li></li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+														<div class="jp-no-solution" style="display:none;">
+															<span>Update Required</span>To play the media you will need to either update your browser to a recent version or update your <a target="_blank" href="http://get.adobe.com/flashplayer/">Flash plugin</a>														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+						<br /><br />
+						<p class="tm-section-description carousel-description">4.使用Wi-Fi連接模式連接VPN</p>
+						<!--<iframe width="854" height="480" src="https://www.youtube.com/embed/0mRaWtx4yO4" frameborder="0" allowfullscreen></iframe>-->
+						<article class="portfolio" data-category="advertising photography">
+									<div class="portfolio_inner">
+										<div class="cms_media top_img_radius">
+											<script type="text/javascript">
+												jQuery(document).ready(function () { 
+													jQuery('#jquery_jplayer_4').jPlayer( { 
+														ready : function () { 
+															jQuery(this).jPlayer('setMedia', { 
+																m4v : 'films/Wi-FiMode.mp4', 
+																ogv : 'http://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer_480x270.ogv', 
+																poster : 'video/4.mp4' 
+															} ); 
+														}, 
+														cssSelectorAncestor : '#jp_container_4', 
+														swfPath : 'css/styles', 
+														supplied : 'mp4, m4v, ogg, ogv, webm, webmv', 
+														size : { 
+															width : '100%', 
+															height : '100%' 
+														} 
+													} ); 
+												} );
+											</script>
+											<div id="jp_container_4" class="jp-video fullwidth">
+												<div class="jp-type-single">
+													<div id="jquery_jplayer_4" class="jp-jplayer"></div>
+													<div class="jp-gui">
+														<div class="jp-video-play" >
+															<a href="#" class="jp-video-play-icon" title="Play">Play</a>														</div>
+														<div class="jp-interface">
+															<div class="jp-progress">
+																<div class="jp-seek-bar">
+																	<div class="jp-play-bar"></div>
+																</div>
+															</div>
+															<div class="jp-duration"></div>
+															<div class="jp-time-sep">/</div>
+															<div class="jp-current-time"></div>
+															<div class="jp-controls-holder">
+																<ul class="jp-controls">
+																	<li><a href="#" class="jp-play" title="Play" tabindex="4"><span>play</span></a></li>
+																	<li><a href="#" class="jp-pause" title="Pause" tabindex="4"><span>pause</span></a></li>
+																	<li><a href="#" class="jp-stop" title="Stop" tabindex="4"><span>stop</span></a></li>
+																</ul>
+																<div class="jp-volume-bar">
+																	<div class="jp-volume-bar-value"></div>
+																</div>
+																<ul class="jp-toggles">
+																	<li><a class="jp-mute" href="#" title="Mute" tabindex="4"><span>Mute</span></a></li>
+																	<li><a class="jp-unmute" title="Unmune" href="#" tabindex="4"><span>Unmute</span></a></li>
+																	<li><a class="jp-full-screen" title="Full Screen" href="#" tabindex="4"><span>Full Screen</span></a></li>
+																	<li><a class="jp-restore-screen" title="Restore Screen" href="#" tabindex="4" style="display:none;"><span>Restore Screen</span></a></li>
+																</ul>
+																<div class="jp-title">
+																	<ul>
+																		<li></li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+														<div class="jp-no-solution" style="display:none;">
+															<span>Update Required</span>To play the media you will need to either update your browser to a recent version or update your <a target="_blank" href="http://get.adobe.com/flashplayer/">Flash plugin</a>														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+						<br /><br />
+						<p class="tm-section-description carousel-description">5.使用4G上網模式連接VPN</p>
+						<!--<iframe width="854" height="480" src="https://www.youtube.com/embed/Nyp9yALxPOQ" frameborder="0" allowfullscreen></iframe>-->
+						<article class="portfolio" data-category="advertising photography">
+									<div class="portfolio_inner">
+										<div class="cms_media top_img_radius">
+											<script type="text/javascript">
+												jQuery(document).ready(function () { 
+													jQuery('#jquery_jplayer_5').jPlayer( { 
+														ready : function () { 
+															jQuery(this).jPlayer('setMedia', { 
+																m4v : 'films/4GMode.mp4', 
+																ogv : 'http://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer_480x270.ogv', 
+																poster : 'video/5.mp4' 
+															} ); 
+														}, 
+														cssSelectorAncestor : '#jp_container_5', 
+														swfPath : 'css/styles', 
+														supplied : 'mp4, m4v, ogg, ogv, webm, webmv', 
+														size : { 
+															width : '100%', 
+															height : '100%' 
+														} 
+													} ); 
+												} );
+											</script>
+											<div id="jp_container_5" class="jp-video fullwidth">
+												<div class="jp-type-single">
+													<div id="jquery_jplayer_5" class="jp-jplayer"></div>
+													<div class="jp-gui">
+														<div class="jp-video-play" >
+															<a href="#" class="jp-video-play-icon" title="Play">Play</a>
+														</div>
+														<div class="jp-interface">
+															<div class="jp-progress">
+																<div class="jp-seek-bar">
+																	<div class="jp-play-bar"></div>
+																</div>
+															</div>
+															<div class="jp-duration"></div>
+															<div class="jp-time-sep">/</div>
+															<div class="jp-current-time"></div>
+															<div class="jp-controls-holder">
+																<ul class="jp-controls">
+																	<li><a href="#" class="jp-play" title="Play" tabindex="5"><span>play</span></a></li>
+																	<li><a href="#" class="jp-pause" title="Pause" tabindex="5"><span>pause</span></a></li>
+																	<li><a href="#" class="jp-stop" title="Stop" tabindex="5"><span>stop</span></a></li>
+																</ul>
+																<div class="jp-volume-bar">
+																	<div class="jp-volume-bar-value"></div>
+																</div>
+																<ul class="jp-toggles">
+																	<li><a class="jp-mute" href="#" title="Mute" tabindex="5"><span>Mute</span></a></li>
+																	<li><a class="jp-unmute" title="Unmune" href="#" tabindex="5"><span>Unmute</span></a></li>
+																	<li><a class="jp-full-screen" title="Full Screen" href="#" tabindex="5"><span>Full Screen</span></a></li>
+																	<li><a class="jp-restore-screen" title="Restore Screen" href="#" tabindex="5" style="display:none;"><span>Restore Screen</span></a></li>
+																</ul>
+																<div class="jp-title">
+																	<ul>
+																		<li></li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+														<div class="jp-no-solution" style="display:none;">
+															<span>Update Required</span>To play the media you will need to either update your browser to a recent version or update your <a target="_blank" href="http://get.adobe.com/flashplayer/">Flash plugin</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</article>
+						<br /><br />
+						<h2 class="tm-section-title" id="quick">Quick Setup流程與畫面</h2> 
+						<img src="img/help/set2-1.png" alt="Contact image" class="img-fluid">
+						<img src="img/help/set2-2.png" alt="Contact image" class="img-fluid">
+						<img src="img/help/set2-3.png" alt="Contact image" class="img-fluid">
+						<img src="img/help/set2-4.png" alt="Contact image" class="img-fluid">
+						<img src="img/help/set2-5.png" alt="Contact image" class="img-fluid">
+						<img src="img/help/set2-6.png" alt="Contact image" class="img-fluid">
+						<img src="img/help/set2-7.png" alt="Contact image" class="img-fluid">
+						<img src="img/help/set2-8.png" alt="Contact image" class="img-fluid">
+						<img src="img/help/set2-9.png" alt="Contact image" class="img-fluid">
+						<img src="img/help/set2-10.png" alt="Contact image" class="img-fluid">
+						<img src="img/help/set2-11.png" alt="Contact image" class="img-fluid"><br />
 						<!--
 						<p class="tm-section-description carousel-description" style="font-size:20px">一、設定VPN</p>
 						<img src="img/help/help02.png" alt="Contact image" class="img-fluid"><br />
@@ -105,16 +521,22 @@
 						<br />
 						-->
 						<br /><br />
-                        <h2 class="tm-section-title" id="first">一、使用前須知</h2>
+                        <h2 class="tm-section-title" id="first">一、使用前須知</h2> 
 						<br />
 						<p class="tm-section-description carousel-description">1. 路由器的初始用戶名是admin 密碼是 admin，黑色路由器（以下簡稱黑盒）出廠默認的IP是10.20.30.1，白色路由器（以下簡稱白盒）出廠默認的IP是10.20.20.1。</p>
-						<p class="tm-section-description carousel-description">2. 黑盒的默認SSID是MiniVPN-black，白盒的默認SSID是MiniVPN-white，默認沒有加密。</p>
+						<p class="tm-section-description carousel-description">2. 黑盒的默認SSID是MiniVPN-black，白盒的默認SSID是MiniVPN-white，初始版本沒有加密，之後我們為了安全性增加了初始密碼12345678，所以如果您可以直接連接Wi-Fi，則沒有加密，如果您需要輸入密碼，則初始密碼為12345678。</p>
 						<p class="tm-section-description carousel-description">3. 恢復出廠設置，在正常開機的狀態下，長按reset鍵10秒。</p>
 						<p class="tm-section-description carousel-description">4. USB 埠不可以接硬碟或 U 盤，僅能插 3G/4GLTE USB 上網卡。</p>
 						<p class="tm-section-description carousel-description">5. Switch button的3個狀態可以設置路由器WAN zone的連線方式。AP為網線連接，WISP為WIFI連接，3G為使用3G USB上網卡連接。</p>
 						<br />
-						<h2 class="tm-section-title" id="second">二、VPN設置嚮導</h2>
-						<p class="tm-section-description carousel-description">1. 將白盒和黑盒的switch開關（如圖1）撥到AP檔(最右側)，分別連接黑盒和白盒的電源線。</p>
+						<h2 class="tm-section-title" id="second">二、路由器韌體升級</h2>
+						<p class="tm-section-description carousel-description">管理介面目錄打開“系統管理”==>“升級韌體”（如圖1）,檢查是否有可用更新，如有則可以點擊“更新”按鈕升級韌體（適用于白盒和黑盒）</p>
+						<img src="img/help/fmup1.png" alt="Contact image" class="img-fluid">
+						<p class="tm-section-description carousel-description" align="center">圖1</p>
+						<p class="tm-section-description carousel-description">點擊“更新”按鈕后，可以看到韌體升級狀態（如圖2）。請耐心等待，不要切換頁面或者切斷電源。</p>
+						<img src="img/help/fmup2.png" alt="Contact image" class="img-fluid">
+						<p class="tm-section-description carousel-description" align="center">圖2</p>
+						<!--<p class="tm-section-description carousel-description">1. 將白盒和黑盒的switch開關（如圖1）撥到AP檔(最右側)，分別連接黑盒和白盒的電源線。</p>
 						<img src="img/help/help01.png" alt="Contact image" class="img-fluid">
 						<p class="tm-section-description carousel-description" align="center">圖1</p>
 						<p class="tm-section-description carousel-description">2. 按照圖2所示連接黑盒白盒，通常ISP（英特網服務供應商Internet Service Provider）會在您的入戶終端放有一台modem或者路由器，將連接Internet的線連接到白盒WAN口(左側)，黑盒WAN口(左側)連接至白盒LAN口(右側)。若通過PC進行控制，請用網線將PC與黑盒LAN口(右側)連接；若通過移動端進行控制，請連接黑盒WIFI（默認SSID：MiniVPN-black）。</p>
@@ -148,70 +570,71 @@
 。</p>
 						<img src="img/help/help11.png" alt="Contact image" class="img-fluid">
 						<p class="tm-section-description carousel-description" align="center">圖11</p>
+						-->
 						<br />
-						<h2 class="tm-section-title" id="third">三、修改管理密碼</h2>
-						<p class="tm-section-description carousel-description">管理介面目錄打開“系統”==>“管理”（如圖12）,在該頁面可以修改路由器管理密碼（適用于白盒和黑盒）</p>
+						<h2 class="tm-section-title" id="third">三、修改管理密碼</h2> 
+						<p class="tm-section-description carousel-description">管理介面目錄打開“系統管理”==>“修改密碼”（如圖12）,在該頁面可以修改路由器管理密碼（適用于白盒和黑盒）</p>
 						<img src="img/help/help12.png" alt="Contact image" class="img-fluid">
 						<p class="tm-section-description carousel-description" align="center">圖12</p>
 						<br />
-						<h2 class="tm-section-title" id="fourth">四、修改WIFI密碼</h2>
-						<p class="tm-section-description carousel-description">管理介面目錄打開“網路”==>“WIFI無線”（如圖13），對WiFi-LAN埠進行“編輯”</p>
+						<h2 class="tm-section-title" id="fourth">四、修改WIFI密碼</h2> 
+						<p class="tm-section-description carousel-description">管理介面目錄打開“網路”==>“WiFi無線設定”（如圖13），點擊“編輯”按鈕對WiFi-LAN埠進行設定</p>
 						<img src="img/help/help13.png" alt="Contact image" class="img-fluid">
 						<p class="tm-section-description carousel-description" align="center">圖13</p>
-						<p class="tm-section-description carousel-description">點擊標籤“無線安全”（如圖14）</p>
+						<p class="tm-section-description carousel-description">更改ESSID以修改WiFi名称（如圖14）。</p>
 						<img src="img/help/help14.png" alt="Contact image" class="img-fluid">
 						<p class="tm-section-description carousel-description" align="center">圖14</p>
-						<p class="tm-section-description carousel-description">在密碼欄位元輸入新的WIFI密碼，按“保存”按鈕，等待WIFI就緒。</p>
+						<p class="tm-section-description carousel-description">点击“無線安全”標籤，更改金鑰以修改WiFi密碼（如圖15）。</p>
 						<img src="img/help/help15.png" alt="Contact image" class="img-fluid">
 						<p class="tm-section-description carousel-description" align="center">圖15</p>
 						<br />
-						<h2 class="tm-section-title" id="fifth">五、AP連接方式</h2>
+						<h2 class="tm-section-title" id="fifth">五、AP連接方式</h2> 
 						<p class="tm-section-description carousel-description">請將路由器（黑盒或白盒）switch開關撥到AP檔</p>
 						<img src="img/help/help16.png" alt="Contact image" class="img-fluid">
 						<p class="tm-section-description carousel-description" align="center">圖16</p>
-						<p class="tm-section-description carousel-description">然後在路由器管理介面“網路”==>“介面”中（如圖17）對埠WAN點擊“編輯”按鈕對埠進行設置</p>
+						<p class="tm-section-description carousel-description">然後在路由器管理介面“網路”==>“上網設定”中（如圖17）對埠WAN點擊“編輯”按鈕對埠進行設置</p>
 						<img src="img/help/help17.png" alt="Contact image" class="img-fluid">
 						<p class="tm-section-description carousel-description" align="center">圖17</p>
 						<p class="tm-section-description carousel-description" style="font-weight:bold">PPPoE</p>
 						<p class="tm-section-description carousel-description">協定欄位選擇“PPPoE”（如圖18）</p>
-						<img src="img/help/help18.png" alt="Contact image" class="img-fluid">
+						<img src="img/help/help18.jpg" alt="Contact image" class="img-fluid">
 						<p class="tm-section-description carousel-description" align="center">圖18</p>
 						<p class="tm-section-description carousel-description">點擊“交換器協定”</p>
-						<img src="img/help/help19.png" alt="Contact image" class="img-fluid">
+						<img src="img/help/help19.jpg" alt="Contact image" class="img-fluid">
 						<p class="tm-section-description carousel-description" align="center">圖19</p>
 						<p class="tm-section-description carousel-description">在“PAP/CHAP驗證用戶名”欄位輸入ISP提供的PPPoE用戶名，“PAP/CHAP驗證密碼”欄位元輸入ISP提供的PPPoE密碼</p>
-						<img src="img/help/help20.png" alt="Contact image" class="img-fluid">
+						<img src="img/help/help20.jpg" alt="Contact image" class="img-fluid">
 						<p class="tm-section-description carousel-description" align="center">圖20</p>
 						<p class="tm-section-description carousel-description" style="font-weight:bold">靜態IP</p>
 						<p class="tm-section-description carousel-description">協定欄位選擇“靜態位元址”，點擊“交換器協定”按鈕（如圖21）</p>
-						<img src="img/help/help21.png" alt="Contact image" class="img-fluid">
+						<img src="img/help/help21.jpg" alt="Contact image" class="img-fluid">
 						<p class="tm-section-description carousel-description" align="center">圖21</p>
 						<p class="tm-section-description carousel-description">在“IPV4位址”欄位輸入您取得的IP位址，“IPV4網路遮罩”選擇您的網路遮罩，“IPV4匝道器”填入您的閘道位址，這些參數需要從您的ISP處獲得</p>
-						<img src="img/help/help22.png" alt="Contact image" class="img-fluid">
+						<img src="img/help/help22.jpg" alt="Contact image" class="img-fluid">
 						<p class="tm-section-description carousel-description" align="center">圖22</p>
 						<br />
-						<h2 class="tm-section-title" id="sixth">六、WISP模式連接方式</h2>
+						<h2 class="tm-section-title" id="sixth">六、WISP模式連接方式</h2> 
 						<p class="tm-section-description carousel-description">請將路由器（黑盒或白盒）switch開關撥到WISP檔</p>
 						<img src="img/help/help23.png" alt="Contact image" class="img-fluid">
 						<p class="tm-section-description carousel-description" align="center">圖23</p>
-						<p class="tm-section-description carousel-description">然後在路由器管理介面“網路”==>“介面”中對埠WiFi-WAN點擊“編輯”按鈕</p>
-						<img src="img/help/help24.png" alt="Contact image" class="img-fluid">
+						<p class="tm-section-description carousel-description">然後在路由器管理介面“網路”==>“上網設定”中對埠WiFi-WAN點擊“編輯”按鈕</p>
+						<img src="img/help/help24.jpg" alt="Contact image" class="img-fluid">
 						<p class="tm-section-description carousel-description" align="center">圖24</p>
 						<p class="tm-section-description carousel-description">跳轉到可供選擇的WIFI網路（如圖25），選擇要加入的WIFI網路點擊“加入網路”，（如果在網路清單當中沒有找到您要加入的網路，點擊頁面底部“再次掃描”，如圖26）</p>
-						<img src="img/help/help25.png" alt="Contact image" class="img-fluid">
+						<img src="img/help/help25.jpg" alt="Contact image" class="img-fluid">
 						<p class="tm-section-description carousel-description" align="center">圖25</p>
-						<img src="img/help/help26.png" alt="Contact image" class="img-fluid">
+						<img src="img/help/help26.jpg" alt="Contact image" class="img-fluid">
 						<p class="tm-section-description carousel-description" align="center">圖26</p>
 						<p class="tm-section-description carousel-description">在跳轉後的頁面的鑰匙欄位元填入WIFI密碼，點擊“保存”按鈕（如圖27），然後等待配置生效即可</p>
-						<img src="img/help/help27.png" alt="Contact image" class="img-fluid">
+						<img src="img/help/help27.jpg" alt="Contact image" class="img-fluid">
 						<p class="tm-section-description carousel-description" align="center">圖27</p>
 						<br />
-						<h2 class="tm-section-title" id="seventh">七、3G連接方式</h2>
+						<h2 class="tm-section-title" id="seventh">七、3G連接方式</h2> 
 						<p class="tm-section-description carousel-description">請將路由器（黑盒或白盒）switch開關撥到3G檔</p>
 						<img src="img/help/help28.png" alt="Contact image" class="img-fluid">
 						<p class="tm-section-description carousel-description" align="center">圖28</p>
-						<p class="tm-section-description carousel-description">然後在路由器管理介面“網路”==>“介面”中（如圖29）對埠3G點擊“編輯”按鈕，接下來的設置可能會因為USB網卡的不同和SIM卡的網路供應商而不同。如果本說明沒有涵蓋您要設定的網路，您可以致電供應商服務號進行諮詢。</p>
-						<img src="img/help/help29.png" alt="Contact image" class="img-fluid">
+						<p class="tm-section-description carousel-description">然後在路由器管理介面“網路”==>“上網設定”中（如圖29）對埠3G點擊“編輯”按鈕，接下來的設置可能會因為USB網卡的不同和SIM卡的網路供應商而不同。如果本說明沒有涵蓋您要設定的網路，您可以致電供應商服務號進行諮詢。</p>
+						<img src="img/help/help29.jpg" alt="Contact image" class="img-fluid">
 						<p class="tm-section-description carousel-description" align="center">圖29</p>
 						<p class="tm-section-description carousel-description">根據您的運營商網路制式選擇服務型態為UTMS或者CDMA，下面是我們統計的常用運營商網路制式</p>
 						<p class="tm-section-description carousel-description" style="font-weight:bold">大陸</p>
@@ -236,7 +659,7 @@
 						<p class="tm-section-description carousel-description">PAP/CHAP驗證用戶名和PAP/CHAP驗證密碼不是所有的運營商都需要填入，已知的需要填入的有</p>
 						<p class="tm-section-description carousel-description">中國電信：用戶名  ctnet@mycdma.cn 密碼  vnet.mobi</p>
 						<p class="tm-section-description carousel-description">填完需要的欄位元後按“保存”等待配置生效。</p>
-						<img src="img/help/help30.png" alt="Contact image" class="img-fluid">
+						<img src="img/help/help30.jpg" alt="Contact image" class="img-fluid">
 						<p class="tm-section-description carousel-description" align="center">圖30</p>
 						<!--
 						<form action="#contact" method="get" class="contact-form">
@@ -253,14 +676,14 @@
                             <div class="form-group">
                                 <textarea id="contact_message" name="contact_message" class="form-control" rows="9" placeholder="Message" required></textarea>
                             </div>
-
+                            
                             <button type="submit" class="btn btn-primary submit-btn">Submit</button>
-                        </form>
+                        </form>      
 						-->
                     </div>
-
-                </section>
-            </div>
+                    
+                </section>  
+            </div>        
         </div>
     </body>
-    </html>
+</html>

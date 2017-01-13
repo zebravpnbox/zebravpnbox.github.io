@@ -1,0 +1,153 @@
+
+/* ---------------------------------------------- Content Color */
+
+body, 
+input, 
+textarea,  
+.cmsms_info li a, 
+.format-aside .entry-content, 
+.cms_category li a, 
+.comments_number, 
+.cmsmsLike span, 
+.cms_comment, 
+.tog, 
+div.jp-playlist li.jp-playlist-current a {color:#817e75;}
+
+.cmsmsLike {background-color:#817e75;}
+
+/* ---------------------------------------------- Navigation Color */
+
+#navigation > li.current_page_item, 
+#navigation > li:hover {background-color:#3ed5d2;}
+
+#navigation > li.current_page_item > a, 
+#navigation > li.current_page_item .subtitle, 
+#navigation > li:hover > a, 
+#navigation > li:hover .subtitle, 
+#navigation ul li a:hover, 
+#navigation ul li.current_page_item > a {color:#ffffff;}
+
+#navigation > li > a {color:#333333;}
+
+#navigation > li .subtitle {color:#8c8c8c;}
+
+#navigation ul li a {
+	background-color:#ffffff;
+	color:#7e7e7e;
+}
+
+#navigation ul li.current_page_item > a, 
+#navigation ul li a:hover {background-color:#3ed5d2;}
+
+/* ---------------------------------------------- Buttons Colors */
+
+.button, 
+.button_medium, 
+.button_large, 
+.button:hover, 
+.button_medium:hover, 
+.button_large:hover, 
+#bottom .button:hover, 
+#bottom .button_medium:hover, 
+#bottom .button_large:hover {color:#ffffff;}
+
+.button,
+.button_medium, 
+.button_large, 
+.cmsms_plus, 
+.tour li.current a .cmsms_plus, 
+div.jp-playlist li.jp-playlist-current span {background-color:#3ed5d2;}
+
+/* ---------------------------------------------- Headings Colors */
+
+h1 {color:#565656;}
+
+h2 {color:#565656;}
+
+h3 {color:#565656;}
+
+h4 {color:#565656;}
+
+h5 {color:#565656;}
+
+h6 {color:#565656;}
+
+.color_2, 
+q:before, 
+blockquote:before, 
+q, 
+blockquote, 
+.dropcap, 
+.tabs li a, 
+.tour li a {color:#565656;}
+
+/* ---------------------------------------------- Links Colors */
+
+a, 
+.color_3, 
+.cmsms_info li a:hover, 
+.social_block a:hover, 
+.cms_category li a:hover, 
+.comments_number:hover, 
+.cmsmsLike:hover span, 
+.cms_comment:hover {color:#3ed5d2;}
+
+a:hover {color:#000000;}
+
+#header.navi_scrolled .top_scroll span, 
+.table thead th, 
+span.dropcap2, 
+.format_icon, 
+.wp-pagenavi a, 
+.cmsmsLike:hover {background-color:#3ed5d2;}
+
+code {border-top-color:#3ed5d2;}
+
+#header.navi_scrolled .top_scroll:hover span {background-color:#817e75;}
+
+#bottom input[type="text"]:focus, 
+#bottom textarea:focus, 
+input[type="text"]:focus, 
+textarea:focus {
+	border-color:#3ed5d2;
+}
+
+/* ---------------------------------------------- Slider colors */
+
+a.cmsms_prev_slide:hover span, 
+a.cmsms_next_slide:hover span, 
+a.cmsms_close_video:hover,
+ul.cmsms_slides_nav li.active a, 
+ul.cmsms_slides_nav li:hover a, 
+#bottom .cmsms_content_slider_parent ul.cmsms_slides_nav li.active a {background-color:#3ed5d2;}
+
+.responsiveSlider, 
+.responsiveSlider h1, 
+.responsiveSlider h2, 
+.responsiveSlider h3, 
+.responsiveSlider h4, 
+.responsiveSlider h5, 
+.responsiveSlider h6 {color:#2c2c2c;}
+
+/* ---------------------------------------------- Bottom Colors */
+
+#bottom, 
+.social_block a {color:#bababa;}
+
+#bottom a:hover {color:#ffffff;}
+
+#bottom h1 {color:#ffffff;}
+
+#bottom h2 {color:#ffffff;}
+
+#bottom h3 {color:#ffffff;}
+
+#bottom h4 {color:#ffffff;}
+
+#bottom h5 {color:#ffffff;}
+
+#bottom h6 {color:#ffffff;}
+
+#bottom .color_2 {color:#ffffff;}
+
+#footer {color:#bababa;}

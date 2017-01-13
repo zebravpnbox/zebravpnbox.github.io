@@ -1,0 +1,43 @@
+body {font:13px/18px Arial, Helvetica, "Nimbus Sans L", sans-serif;}
+
+input, textarea {font:bold 13px/18px Arial, Helvetica, "Nimbus Sans L", sans-serif;}
+
+code {font:13px/18px Arial, Helvetica, "Nimbus Sans L", sans-serif;}
+
+h1 {font:34px/36px "Droid Sans", Helvetica, "Nimbus Sans L", sans-serif;}
+
+h2, #sidebar .widgettitle, .sitemap>li>a {font:26px/36px "Droid Sans", Helvetica, "Nimbus Sans L", sans-serif;}
+
+h3 {font:22px/36px "Droid Sans", Helvetica, "Nimbus Sans L", sans-serif;}
+
+h4 {font:20px/36px "Droid Sans", Helvetica, "Nimbus Sans L", sans-serif;}
+
+h5 {font:18px/36px "Droid Sans", Helvetica, "Nimbus Sans L", sans-serif;}
+
+h6, 
+.table thead th, 
+.tog, 
+.tabs li a, 
+.tour li a {font:16px/18px "Droid Sans", Helvetica, "Nimbus Sans L", sans-serif;}
+
+small, 
+abbr, 
+.cmsms_info li, 
+.comments_number {font:11px/18px Arial, Helvetica, "Nimbus Sans L", sans-serif;}
+
+blockquote, q {font:18px/24px "Droid Sans", Helvetica, "Nimbus Sans L", sans-serif;}
+
+.button_large {font-family:"Droid Sans", Helvetica, "Nimbus Sans L", sans-serif;}
+
+#navigation .subtitle {font-family:Arial, Helvetica, "Nimbus Sans L", sans-serif;}
+
+/* ---------- Medium Monitor (Note: Design for a width more than 1440px) ---------- */
+
+@media only screen and (min-width: 1439px) {
+	
+	body {
+		font-size:14px;
+		line-height:20px;
+	}
+	
+}
