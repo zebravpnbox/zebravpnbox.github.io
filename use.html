@@ -33,7 +33,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ZEBRA-Help</title>
 <!-- load stylesheets -->
-<link rel="stylesheet" href="http://fonts.useso.com/css?family=Open+Sans:300,400">
+<link rel="stylesheet" href="//fonts.useso.com/css?family=Open+Sans:300,400">
 <!-- Google web font "Open Sans" -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <!-- Bootstrap style -->
@@ -52,7 +52,7 @@ function MM_CheckFlashVersion(reqVerStr,msg){
   with(navigator){
     var isIE  = (appVersion.indexOf("MSIE") != -1 && userAgent.indexOf("Opera") == -1);
     var isWin = (appVersion.toLowerCase().indexOf("win") != -1);
-    if (!isIE || !isWin){  
+    if (!isIE || !isWin){
       var flashVer = -1;
       if (plugins && plugins.length > 0){
         var desc = plugins["Shockwave Flash"] ? plugins["Shockwave Flash"].description : "";
@@ -72,24 +72,24 @@ function MM_CheckFlashVersion(reqVerStr,msg){
 
       var verArr = reqVerStr.split(",");
       var reqVer = parseFloat(verArr[0] + "." + verArr[2]);
-  
+
       if (flashVer < reqVer){
         if (confirm(msg))
           window.location = "http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
       }
     }
-  } 
+  }
 }
 </script>
 </head>
 
       <body onLoad="MM_CheckFlashVersion('7,0,0,0','本页内容需要使用较新的 Macromedia Flash Player 版本。是否现在下载它？');">
-        <div class="container">     
+        <div class="container">
             <div class="tm-main-content">
                 <section class="tm-content-box">
                     <!--<img src="img/contact.jpg" alt="Contact image" class="img-fluid">-->
                     <div id="contact" class="pad">
-						<h2 class="tm-section-title" id="film">千里馬行動網霸介紹視頻</h2> 
+						<h2 class="tm-section-title" id="film">千里馬行動網霸介紹視頻</h2>
 						<br />
 						<p class="tm-section-description carousel-description">1.千里馬行動網霸對比它牌翻墻軟體</p>
 						<!--<iframe width="854" height="480" src="https://www.youtube.com/embed/Eh13rGm5OF4" frameborder="0" allowfullscreen></iframe>-->
@@ -97,23 +97,23 @@ function MM_CheckFlashVersion(reqVerStr,msg){
 									<div class="portfolio_inner">
 										<div class="cms_media top_img_radius">
 											<script type="text/javascript">
-												jQuery(document).ready(function () { 
-													jQuery('#jquery_jplayer_2').jPlayer( { 
-														ready : function () { 
-															jQuery(this).jPlayer('setMedia', { 
-																m4v : 'films/compare.mp4', 
-																ogv : 'http://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer_480x270.ogv', 
-																poster : 'video/1.mp4' 
-															} ); 
-														}, 
-														cssSelectorAncestor : '#jp_container_2', 
-														swfPath : 'css/styles', 
-														supplied : 'mp4, m4v, ogg, ogv, webm, webmv', 
-														size : { 
-															width : '100%', 
-															height : '100%' 
-														} 
-													} ); 
+												jQuery(document).ready(function () {
+													jQuery('#jquery_jplayer_2').jPlayer( {
+														ready : function () {
+															jQuery(this).jPlayer('setMedia', {
+																m4v : 'films/compare.mp4',
+																ogv : 'http://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer_480x270.ogv',
+																poster : 'video/1.mp4'
+															} );
+														},
+														cssSelectorAncestor : '#jp_container_2',
+														swfPath : 'css/styles',
+														supplied : 'mp4, m4v, ogg, ogv, webm, webmv',
+														size : {
+															width : '100%',
+															height : '100%'
+														}
+													} );
 												} );
 											</script>
 											<div id="jp_container_2" class="jp-video fullwidth">
@@ -168,23 +168,23 @@ function MM_CheckFlashVersion(reqVerStr,msg){
 									<div class="portfolio_inner">
 										<div class="cms_media top_img_radius">
 											<script type="text/javascript">
-												jQuery(document).ready(function () { 
-													jQuery('#jquery_jplayer_3').jPlayer( { 
-														ready : function () { 
-															jQuery(this).jPlayer('setMedia', { 
-																m4v : 'films/useinhangzhou.mp4', 
-																ogv : 'http://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer_480x270.ogv', 
-																poster : 'video/3.mp4' 
-															} ); 
-														}, 
-														cssSelectorAncestor : '#jp_container_3', 
-														swfPath : 'css/styles', 
-														supplied : 'mp4, m4v, ogg, ogv, webm, webmv', 
-														size : { 
-															width : '100%', 
-															height : '100%' 
-														} 
-													} ); 
+												jQuery(document).ready(function () {
+													jQuery('#jquery_jplayer_3').jPlayer( {
+														ready : function () {
+															jQuery(this).jPlayer('setMedia', {
+																m4v : 'films/useinhangzhou.mp4',
+																ogv : 'http://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer_480x270.ogv',
+																poster : 'video/3.mp4'
+															} );
+														},
+														cssSelectorAncestor : '#jp_container_3',
+														swfPath : 'css/styles',
+														supplied : 'mp4, m4v, ogg, ogv, webm, webmv',
+														size : {
+															width : '100%',
+															height : '100%'
+														}
+													} );
 												} );
 											</script>
 											<div id="jp_container_3" class="jp-video fullwidth">
@@ -239,23 +239,23 @@ function MM_CheckFlashVersion(reqVerStr,msg){
 									<div class="portfolio_inner">
 										<div class="cms_media top_img_radius">
 											<script type="text/javascript">
-												jQuery(document).ready(function () { 
-													jQuery('#jquery_jplayer_4').jPlayer( { 
-														ready : function () { 
-															jQuery(this).jPlayer('setMedia', { 
-																m4v : 'films/useinxian.mp4', 
-																ogv : 'http://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer_480x270.ogv', 
-																poster : 'video/4.mp4' 
-															} ); 
-														}, 
-														cssSelectorAncestor : '#jp_container_4', 
-														swfPath : 'css/styles', 
-														supplied : 'mp4, m4v, ogg, ogv, webm, webmv', 
-														size : { 
-															width : '100%', 
-															height : '100%' 
-														} 
-													} ); 
+												jQuery(document).ready(function () {
+													jQuery('#jquery_jplayer_4').jPlayer( {
+														ready : function () {
+															jQuery(this).jPlayer('setMedia', {
+																m4v : 'films/useinxian.mp4',
+																ogv : 'http://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer_480x270.ogv',
+																poster : 'video/4.mp4'
+															} );
+														},
+														cssSelectorAncestor : '#jp_container_4',
+														swfPath : 'css/styles',
+														supplied : 'mp4, m4v, ogg, ogv, webm, webmv',
+														size : {
+															width : '100%',
+															height : '100%'
+														}
+													} );
 												} );
 											</script>
 											<div id="jp_container_4" class="jp-video fullwidth">
@@ -305,9 +305,9 @@ function MM_CheckFlashVersion(reqVerStr,msg){
 								</article>
 						<br /><br />
                     </div>
-                    
-                </section>  
-            </div>        
+
+                </section>
+            </div>
         </div>
     </body>
 </html>
